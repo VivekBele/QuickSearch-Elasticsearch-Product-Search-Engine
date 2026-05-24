@@ -25,5 +25,7 @@ namespace QuickSearch.Model
 
         [JsonPropertyName("created_at")]
         public DateTime Created_at { get; set; }
+        [JsonPropertyName("imgURL")]
+        public string ImageURL { get; set; }
     }
 }
